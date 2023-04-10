@@ -1,0 +1,29 @@
+.navigationCircle{
+    border-radius: 20px;
+    background-color:  grey;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 250px;
+    margin: 10px;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    padding: 4px;  
+}
+
+
+.navigationCircleForQuestionVisited{
+    border-radius: 20px;
+    background-color: rgb(7, 77, 120);
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin: 10px;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    padding: 4px;  
+    left: 250px;
+
+}

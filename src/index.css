@@ -1,0 +1,19 @@
+body {
+  
+  margin: 0;
+  background-image: linear-gradient(to right, rgba(0, 187, 255, 0.143), rgba(0, 255, 153, 0.268));
+ 
+}
+
+
+button,input {
+  
+  background-color: rgb(192, 234, 221);
+  font-size: 25px;
+  color: rgb(7, 77, 120);
+  border-radius: 10px;
+   position: relative;
+}
+
+
+

@@ -1,0 +1,102 @@
+.buttonDisable {
+    pointer-events: none;
+    opacity: 0.5;
+    position: relative;
+    left: 750px;
+
+}
+
+.buttonEnable{
+    pointer-events: all;
+    opacity: 1;
+    position: relative;
+    left: 750px;
+}
+
+.navigationCircleBorder{
+    border-radius: 20px;
+    background-color: rgb(153, 213, 194);
+    position: relative;
+    top: 120px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    left: 300px;
+   
+  }
+
+  .questionBox{
+    background-color: rgb(153, 213, 194);
+    top: 50px;
+    border-radius: 40px;
+    height: 500px;
+    font-size: 30px;
+    width: 850px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    left: 250px;
+    position: relative;
+    box-shadow: 5px 8px 8px 8px #6ccaa3;
+    color: rgb(7, 77, 120);
+    position: relative;
+   
+}
+
+.questionNo{
+    top: -10px;
+    position: relative;
+    left: 340px;
+}
+
+.question{
+    position: relative;
+    top: -20px;
+   
+}
+
+.options{
+    position: relative;
+    top: -20px;
+    border: 2px solid #6ccaa3;
+    list-style: none;
+    height: 45px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 10px;
+
+}
+
+.optionsClicked{
+    position: relative;
+    list-style: none;
+    top: -20px;
+    border: 2px solid #6ccaa3;   
+    height: 45px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: rgb(197, 239, 226);
+    padding-top: 10px;
+
+}
+
+
+.userNameAndTimer{
+    background-color: rgb(153, 213, 194);
+   padding-left: 20px;
+   top: 5px;
+    padding-top: 1px;
+    border-radius: 40px;
+    height: 120px;
+    font-size: 20px;
+    width: 200px;
+    left: 1125px;
+    position: relative;
+    box-shadow: 5px 8px 8px 8px #6ccaa3;
+    color: rgb(7, 77, 120);
+    position: relative;
+}
+

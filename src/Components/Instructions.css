@@ -1,0 +1,40 @@
+.instructionBox{
+    background-color: rgb(153, 213, 194);
+    top: 150px;
+    border-radius: 40px;
+    height: 390px;
+    font-size: 30px;
+    width: 850px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    left: 250px;
+    position: relative;
+    box-shadow: 5px 8px 8px 8px #6ccaa3;
+    color: rgb(7, 77, 120);
+    position: relative;
+   
+}
+
+.instructionTitle{
+    left: 320px;
+    top: -30px;
+    position: relative;
+}
+
+
+.welcomeNote{
+    top: -30px;
+    position: relative;
+}
+
+.instructionsBox{
+    position: relative;
+    top:-50px
+}
+
+.instructionContinueButton{
+    position: relative;
+    top: -40px;
+    left: 350px;
+}
