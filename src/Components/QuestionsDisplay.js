@@ -55,6 +55,8 @@ const QuestionsDisplay = ({ questions, currentQuestion, validateAnswerAndShowNex
 
     }
 
+   
+
 
     return (
         <>
@@ -85,8 +87,9 @@ const QuestionsDisplay = ({ questions, currentQuestion, validateAnswerAndShowNex
             {(currentQuestion + 1) ? <div className="navigationCircleBorder">
                 {
                     questions.map((qn) => {
+                        
                         return (
-                            <PageDownNavigation key={qn.id} questionNumber={qn.id} navigateToQn={navigateToQn} isVisited= {qn.isVisited}></PageDownNavigation>
+                            <PageDownNavigation key={qn.id} questionNumber={qn.id} navigateToQn={navigateToQn} isVisited= {qn.isVisited}  setOptionStyle =  {setOptionStyle}></PageDownNavigation>
                         );
                     })
                 }

@@ -17,6 +17,7 @@ function App() {
   const nameLocalStorageKey = "name_local_storage";
   const scoreLocalStorageKey = "score_local_key";
   const navigate = useNavigate();
+  
 
   const [quizTakerName, setQuizTakerName] = useState({
     name: '',
